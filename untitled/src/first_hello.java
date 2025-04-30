@@ -4,7 +4,6 @@
 //    }
 //}
 
-
 //tips:成员和静态成员,如果按照python理解的话就是方法和静态方法
 class Mytest{
     public void F1(){  //important public 这是成员修饰符 void 表示返回值类型 F1为方法名,括号内可以传递参数
@@ -28,7 +27,7 @@ public class first_hello {  //important 类对象前面的public表示其为公�
      * @param args 参数的注释
      */
     public static void main(String[] args) {  //important 主方法
-        //tips:实例化绑定类对象,这里简单记住实例化的写法,如果是python的话只需要obj=Mytest()这里则需要类对象名 实例类对象名 = new 类对象名()
+        //tips:实例化绑定类对象,这里简单记住实例化的写法,如果是python的话只需要obj=Mytest()这里则需要 类对象名 实例类对象名 = new 类对象名()
         Mytest obj = new Mytest();
         //tips:对象(在java里叫成员)调用
         obj.F1();
